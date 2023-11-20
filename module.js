@@ -1,6 +1,5 @@
-import {myString} from "./variable.js";
+import * as utils from "./variable.js"
 
+console.log(utils.myFun());
 
-// console.log(myFun);
-
-console.log(myString);  
+console.log(utils.myString);
